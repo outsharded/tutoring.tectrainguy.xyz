@@ -43,10 +43,10 @@ const IntroCard = ({ section }) => {
 				<div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
 					<div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
 						{' '}
-						I&apos;m a young developer from London!
+						I&apos;m a young developer from London! I develop stuff. 🛠️ I fix stuff. 🩹
 					</div>
 					<div className="flex lg:text-xl xl:text-2xl 2xl:text-2xl font-base dark:text-gray-300 mt-5">
-					I develop stuff. 🛠️ I fix stuff. 🩹 I own the Swift Den. ✍🏼
+						Want to learn programming?
 					</div>
 				</div>
 			</div>

@@ -24,13 +24,14 @@ const SwiftDen = ({ section }) => {
 
 				<div>
 	
-					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Interested?</div>
+					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Sections</div>
 				</div>
 				<div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
 					<div className="flex lg:text-xl xl:text-2xl 2xl:text-2xl font-base dark:text-gray-300 mt-5">
-						Email me at fabian@tectrainguy.xyz.
-
-						A first lesson is free, and a 30-minute session is £5. We can work on any kind of programming or work on these sections.
+						Tinkering: Using Micro:Bit with components to connect computers to the real world. (Beginner) <br></br><br></br>
+						General purpose programming: Learn python, one of the most common programming languages. (Medium) <br></br><br></br>
+						Front-end web: Learn how websites are programmed, and how they are styled using HTML and CSS. (Medium) <br></br><br></br>
+						Back end web: Learn about databases, and working with what powers the web using Javascript. (Experienced) <br></br><br></br>
 					</div>
 				</div>
 			</div>

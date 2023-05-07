@@ -20,11 +20,11 @@ export default function Toggle() {
   };
 
   const toggleTheme = useCallback(() => {
-    setTheme(resolvedTheme === "light" ? "dark" : "light");
+    setTheme(resolvedTheme === "dark" ? "light" : "dark");
   }, [resolvedTheme, setTheme]);
 
   useEffect(() => {
-    setTheme("dark");
+    setTheme("light");
   }, [setTheme]);
 
   return (

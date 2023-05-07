@@ -1,13 +1,12 @@
 import NavBar from "@/components/NavBar";
 import IntroCard from "@/components/IntroCard";
-import TwitterCard from "@/components/TwitterCard";
+import Sections from "@/components/Sections";
 import ToggleCard from "@/components/ToggleCard";
-import DiscordCard from "@/components/DiscordCard";
 import MailCard from "@/components/MailCard";
 import { useState } from "react";
 
-import OnlineCard from "@/components/OnlineCard";
-import TimeCard from "@/components/TimeCard";
+
+
 import SwiftDen from "@/components/SwiftDen";
 
 function Home() {
@@ -20,13 +19,13 @@ function Home() {
 			md:gap-4 mt-5 container mx-auto xl:px-20"
       >
         <IntroCard section={section} />
-
+        
         <ToggleCard section={section} />
-        <OnlineCard section={section} />
-        <TwitterCard section={section} />
+
+
         <MailCard section={section} />
-        <TimeCard section={section} />
-        <DiscordCard section={section} />
+        <Sections section={section} />
+
         <SwiftDen section={section} />
         
       </div>
